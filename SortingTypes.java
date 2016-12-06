@@ -149,6 +149,8 @@ public class SortingTypes {
     /**
      * This method organizes the arrays that were divided in small pieces, once the values are compared, the
      * arrays are merged to the sortList array.
+     * The sorting time for the merge sort is O(n log n). The log n comes from the height of the array when we subdivide to smaller
+     * arrays it takes log n.
      * @param firstHalf
      *  First half of the array to compare
      * @param secondHalf
