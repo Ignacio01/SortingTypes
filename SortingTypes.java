@@ -204,6 +204,10 @@ public class SortingTypes {
         }
         return listSorted;
     }
+    
+    /**
+    * Add QuickSort
+    */
 
 
     public static void main(String[] args){
